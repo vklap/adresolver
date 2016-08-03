@@ -6,7 +6,7 @@ from app.domain.ad_transformers import DoNothingAdTransformer, GoogleAdTransform
 AD_TRANFORMER_BY_TRANSFORMER_ID = {
     DO_NOTHING_AD_TRANSFORMER_ID: DoNothingAdTransformer,
     GOOGLE_AD_TRANSFORMER_ID: GoogleAdTransformer,
-    FacebookAdTransformer: FacebookAdTransformer
+    FACEBOOK_AD_TRANSFORMER_ID: FacebookAdTransformer
 }
 
 
